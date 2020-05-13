@@ -1,12 +1,12 @@
 {
-  "name": "Blog",
+  
+  "name": "blog",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs",
-	"d": "bash deploy.sh"
+    "build": "vuepress build docs"
   },
   "repository": {
     "type": "git",
@@ -16,8 +16,8 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/samamy888/Blog/issues"
+    "url": "https://github.com/samamy888/blog/issues"
   },
-  "homepage": "https://github.com/samamy888/Blog#readme"
+  "homepage": "https://github.com/samamy888/blog#readme"
   
 }
