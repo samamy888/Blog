@@ -14,21 +14,38 @@ module.exports = {
 	  lastUpdated: 'Last Updated', // 文档更新时间：每个文件git最后提交的时间
 	  //導航列
 	  nav:[
-		{ text: '關於', link: '/about/' }, // 内部链接 以docs为根目录
-		{ text: 'GitHub地址', link: 'https://github.com/samamy888' },   
+		{ text: '文章', link: '/article/' }, 
+		{ text: '關於', link: '/about/' }, 
+		{ text: 'GitHub', link: 'https://github.com/samamy888' },   
 	  ],
 	  //側邊欄
-	  sidebar:[
+	  sidebar: [
 		'/',
-		'/note/',
-            {
-              title: '隨手筆記',
-              children: [
-                '/note/JS/test', // 以docs为根目录来查找文件 
-                // 上面地址查找的是：docs>accumulate>JS>test.md 文件
-                // 自动加.md 每个子选项的标题 是该md文件中的第一个h1/h2/h3标题
-              ]
-            }
-		]
+        {
+            title: '隨手筆記',
+			collapsable: false,
+			path:'/note/',
+            children: [ 
+				{
+					title: 'SQL相關',
+					collapsable: true,
+					children: [
+						{
+							title: 'SQL為null問題',
+							path:'/note/SQL/Sql_NullQuestion',
+							collapsable: false,
+						}
+					]
+				},
+			]
+		},
+        {
+			title: 'LeetCode',
+			path:'/leetcode/',
+            collapsable: false,
+			children: [
+			]
+        }
+	  ]
 	}
   };
