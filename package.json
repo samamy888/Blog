@@ -1,19 +1,23 @@
 {
-  "name": "blog",
+  "name": "Blog",
   "version": "1.0.0",
-  "description": "My marvelous Nuxt.js project",
-  "author": "wenhui_xiao",
-  "private": true,
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate",
-	"build:gh-pages": "cross-env DEPLOY_ENV=GH_PAGES nuxt build",
-	"generate:gh-pages": "cross-env DEPLOY_ENV=GH_PAGES nuxt generate"
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+	"d": "bash deploy.sh"
   },
-  "dependencies": {
-    "nuxt": "^2.0.0"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samamy888/Blog.git"
   },
-  "devDependencies": {}
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samamy888/Blog/issues"
+  },
+  "homepage": "https://github.com/samamy888/Blog#readme"
+  
 }
