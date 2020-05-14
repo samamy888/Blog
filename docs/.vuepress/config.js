@@ -23,8 +23,7 @@ module.exports = {
 		'/',
         {
             title: '隨手筆記',
-			collapsable: false,
-			path:'/note/',
+			collapsable: true,
             children: [ 
 				{
 					title: 'SQL相關',
@@ -33,16 +32,38 @@ module.exports = {
 						{
 							title: 'SQL為null問題',
 							path:'/note/SQL/Sql_NullQuestion',
-							collapsable: false,
 						}
+					]
+				},
+				{
+					title: 'C#相關',
+					collapsable: true,
+					children: [
+					]
+				},
+				{
+					title: 'HTML相關',
+					collapsable: true,
+					children: [
+					]
+				},
+				{
+					title: 'JS相關',
+					collapsable: true,
+					children: [
+					]
+				},
+				{
+					title: 'CSS相關',
+					collapsable: true,
+					children: [
 					]
 				},
 			]
 		},
         {
 			title: 'LeetCode',
-			path:'/leetcode/',
-            collapsable: false,
+            collapsable: true,
 			children: [
 			]
         }
