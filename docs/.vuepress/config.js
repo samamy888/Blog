@@ -57,10 +57,28 @@ module.exports = {
 					title: 'CSS相關',
 					collapsable: true,
 					children: [
+						{
+							title: '字數過多問題',
+							path:'note/CSS/WordCount_Solution',
+						},
 					]
 				},
 			]
 		},
+		{
+			title: '第三方套件複習',
+			collapsable: true,
+			children: [
+				{
+					title: 'DataTables套件',
+					path:'/recommend_kit/DataTables',
+				},
+				{
+					title: 'sweetalert2套件',
+					path:'/recommend_kit/sweetalert2',
+				},
+			]
+        },
         {
 			title: 'LeetCode',
             collapsable: true,

@@ -15,7 +15,7 @@ BEGIN
 	set @strexec='Select * From TB_Student Where 1=1'	
 	If(@Status Is Not Null)
 	Begin
-		set @strexec=@strexec+'And A.Class = '
+		set @strexec=@strexec+'And Class = '
 		+ convert(varchar,@Class)
 	End	
 	exec(@strexec)
