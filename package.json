@@ -1,5 +1,4 @@
 {
-  
   "name": "blog",
   "version": "1.0.0",
   "description": "",
@@ -18,6 +17,8 @@
   "bugs": {
     "url": "https://github.com/samamy888/blog/issues"
   },
-  "homepage": "https://github.com/samamy888/blog#readme"
-  
+  "homepage": "https://github.com/samamy888/blog#readme",
+  "devDependencies": {
+    "vuepress-plugin-disqus": "^0.2.0"
+  }
 }

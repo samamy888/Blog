@@ -86,5 +86,11 @@ module.exports = {
 			]
         }
 	  ]
+	},
+	plugins: {
+		'disqus': { 
+			shortname:'disqus',
+			url:'https-samamy888-github-io-blog-1.disqus.com',
+		 }
 	}
   };
