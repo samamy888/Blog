@@ -97,6 +97,7 @@ $navbar-vertical-padding = 0.7rem
 $navbar-horizontal-padding = 1.5rem
 
 .navbar
+  box-shadow 0 0.5px 0.5px rgba(0,0,0,.25)
   padding $navbar-vertical-padding $navbar-horizontal-padding
   line-height $navbarHeight - 1.4rem
   a, span, img

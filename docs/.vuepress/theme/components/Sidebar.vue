@@ -28,6 +28,7 @@ export default {
 <style lang="stylus">
 .sidebar
   background-color #f5f5f5
+  box-shadow 0 2px 6px rgba(0,0,0,.25)
   ul
     padding 0
     margin 0
