@@ -25,6 +25,7 @@ export default {
 @require '../styles/wrapper.styl'
 
 .page
+  background-color #e8f3f6
   padding-bottom 2rem
   display block
 

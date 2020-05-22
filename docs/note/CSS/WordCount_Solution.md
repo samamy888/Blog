@@ -13,13 +13,13 @@
   (<a href='https://codepen.io/wenhui_xiao'>@wenhui_xiao</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
-CSS:
+**CSS:**
 
 ```CSS
 text-overflow: ellipsis;
 ```
 
-要加這行才會超出寬度顯示...代替
+**要加這行才會超出寬度顯示...代替**
 
 <disqus/>   
   

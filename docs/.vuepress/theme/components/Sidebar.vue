@@ -27,10 +27,11 @@ export default {
 
 <style lang="stylus">
 .sidebar
+  background-color #f5f5f5
   ul
     padding 0
     margin 0
-    list-style-type none
+    list-style-type none  
   a
     display inline-block
   .nav-links
