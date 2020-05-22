@@ -20,5 +20,8 @@
   "homepage": "https://github.com/samamy888/blog#readme",
   "devDependencies": {
     "vuepress-plugin-disqus": "^0.2.0"
+  },
+  "dependencies": {
+    "jquery": "^3.5.1"
   }
 }

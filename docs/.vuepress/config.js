@@ -4,6 +4,11 @@ module.exports = {
 	// 注入到当前页面的 HTML <head> 中的标签
 	head: [
 	  ['link', { rel: 'icon', href: '/favicon.ico' }], // 增加一个自定义的 favicon(网页标签的图标)
+	  ['link', { rel: 'stylesheet', href: 'https://cdn.datatables.net/1.10.15/css/jquery.dataTables.min.css' }], 
+	  ['link', { rel: 'stylesheet', href: 'https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css' }], 
+	  ['script', { src: '/JS/jquery.min.js' }],
+	  ['script', { src: 'https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js' }],
+	  ['script', { src: 'https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js' }],
 	],
 	base: '/blog/', // 这是部署到github相关的配置 下面会讲
 	markdown: {
@@ -77,6 +82,10 @@ module.exports = {
 					title: 'sweetalert2套件',
 					path:'/recommend_kit/sweetalert2',
 				},
+				{
+					title: 'Swiper套件',
+					path:'/recommend_kit/Swiper',
+				},
 			]
         },
         {
@@ -85,12 +94,11 @@ module.exports = {
 			children: [
 			]
         }
-	  ]
+	  ],
 	},
 	plugins: {
-		'disqus': { 
-			shortname:'disqus',
-			url:'https-samamy888-github-io-blog-1.disqus.com',
-		 }
+		'Disqus':{
+			shortname:'https-samamy888-github-io-blog'
+		}
 	}
   };

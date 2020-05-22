@@ -19,6 +19,7 @@ CSS:
 text-overflow: ellipsis;
 ```
 
-要加這行才會超出寬度顯示...代替~
+要加這行才會超出寬度顯示...代替
 
 <disqus/>   
+  

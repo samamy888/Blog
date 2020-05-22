@@ -22,23 +22,14 @@ BEGIN
 END
 
 ```
-<br/>
 
 >真的很難維護，如果變數一多，就會變的很恐怖
 
-<br/>
-
 後來發現爬文
-
-<br/>
 
 [參考網站](https://stackoverflow.com/questions/4224991/checking-an-input-param-if-not-null-and-using-it-in-where-in-sql-server)
 
-<br/>
-
 發現還能這樣寫~  
-
-<br/>
 
 ```sql
 PROCEDURE [dbo].[Student_Get] 
@@ -53,5 +44,6 @@ END
 ```
 
 就再也離不開這種寫法拉😅~~~
-  
-<disqus/>                    
+
+<disqus/>   
+                 
