@@ -7,5 +7,37 @@
 搭配icon做出的演示更是妙不可言
 
 
+## 簡單DEMO
+
+<iframe height="450" style="width: 100%;" scrolling="no" title="Sweetalert2_Demo" src="https://codepen.io/wenhui_xiao/embed/PoPVXYr?height=265&theme-id=dark&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/wenhui_xiao/pen/PoPVXYr'>Sweetalert2_Demo</a> by 蕭文暉
+  (<a href='https://codepen.io/wenhui_xiao'>@wenhui_xiao</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
+## CDN引入
+
+```js
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+```
+## 語法
+
+```js
+Swal.fire(
+  'Good job!', //標題 必填
+  '測試成功!', //內容 非必填
+  'success' //Icon 非必填
+)
+```
+
+## 各式Icon
+
+<iframe height="450" style="width: 100%;" scrolling="no" title="LYpvVzw" src="https://codepen.io/wenhui_xiao/embed/LYpvVzw?height=265&theme-id=dark&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/wenhui_xiao/pen/LYpvVzw'>LYpvVzw</a> by 蕭文暉
+  (<a href='https://codepen.io/wenhui_xiao'>@wenhui_xiao</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
+
+
+
 
 <disqus/>

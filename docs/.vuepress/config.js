@@ -66,6 +66,10 @@ module.exports = {
 							title: '字數過多問題',
 							path:'note/CSS/WordCount_Solution',
 						},
+						{
+							title: '置中產生器',
+							path:'note/CSS/CenterCreate',
+						},
 					]
 				},
 			]
