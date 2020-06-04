@@ -6,6 +6,11 @@
 
 搭配icon做出的演示更是妙不可言
 
+## CDN引入
+
+```js
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+```
 
 ## 簡單DEMO
 
@@ -14,11 +19,6 @@
   (<a href='https://codepen.io/wenhui_xiao'>@wenhui_xiao</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
-## CDN引入
-
-```js
-<script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
-```
 ## 語法
 
 ```js

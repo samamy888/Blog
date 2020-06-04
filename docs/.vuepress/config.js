@@ -35,7 +35,7 @@ module.exports = {
 					collapsable: true,
 					children: [
 						{
-							title: 'SQL為null問題',
+							title: 'SQL變數為null問題',
 							path:'/note/SQL/Sql_NullQuestion',
 						}
 					]
@@ -78,6 +78,10 @@ module.exports = {
 			title: '第三方套件複習',
 			collapsable: true,
 			children: [
+				{
+					title: 'Lodash套件',
+					path:'/recommend_kit/Lodash',
+				},
 				{
 					title: 'DataTables套件',
 					path:'/recommend_kit/DataTables',
