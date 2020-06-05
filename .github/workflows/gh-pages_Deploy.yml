@@ -12,4 +12,4 @@ jobs:
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         BUILD_DIR: build # The folder, the action should deploy.
-        BUILD_SCRIPT: npm install && npm run-script build # The build script the action should run prior to deploying.
+        BUILD_SCRIPT: npm install &&npm install vuepress && npm run-script build # The build script the action should run prior to deploying.
