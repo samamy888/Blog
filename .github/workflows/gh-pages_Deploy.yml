@@ -8,8 +8,10 @@ jobs:
       uses: actions/checkout@master
 
     - name: Build and Deploy
-      uses: testthedocs/github-pages-deploy-action@master
+      uses: grasilife/github-pages-deploy-action@master
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        BUILD_DIR: build # The folder, the action should deploy.
-        BUILD_SCRIPT: npx install && npx run-script build # The build script the action should run prior to deploying.
+        BASE_BRANCH: master # The branch the action should deploy from.
+        BRANCH: gh-pages # The branch the action should deploy to.
+        FOLDER: build # The folder the action should deploy.
+        BUILD_SCRIPT: npm install && npm run-script build # The build script the action should run prior to deploying
