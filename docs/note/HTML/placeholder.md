@@ -11,7 +11,7 @@
 
 **只要src打上它們的網址**
 
-**/之後打上大小 就可以顯示佔位圖**
+**/之後打上大小 就可以顯示占用的圖片大小**
 
 ``` html
 
@@ -22,6 +22,34 @@
 **成果:**
 
 <img src="https://via.placeholder.com/232x200">
+
+## 進階應用
+
+``` html
+
+<img src="https://via.placeholder.com/300x300.gif" title="gif檔">
+
+```
+<img src="https://via.placeholder.com/300x300.gif" title="gif檔">
+
+## 自訂圖片文字
+``` html
+
+<img src="https://via.placeholder.com/300x300/?text=I+am+placehold" title="自訂文字">
+
+```
+
+<img src="https://via.placeholder.com/300x300/?text=I+am+placehold" title="自訂文字">
+
+## 自訂顏色
+``` html
+
+<img src="https://via.placeholder.com/300x300/ffffff/000000" title="白底黑字">
+
+```
+
+<img src="https://via.placeholder.com/300x300/ffffff/000000" title="白底黑字">
+
 
 <div style='margin-top:20px;'>
 就可以先佔位 方便前端人員先行切版👍👍
