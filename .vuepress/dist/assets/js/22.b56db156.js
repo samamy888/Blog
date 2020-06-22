@@ -1,0 +1,72 @@
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[22],{
+
+/***/ "./docs/recommend_kit/sweetalert2.md":
+/*!*******************************************!*\
+  !*** ./docs/recommend_kit/sweetalert2.md ***!
+  \*******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _sweetalert2_md_vue_type_template_id_a7d004f6___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./sweetalert2.md?vue&type=template&id=a7d004f6& */ "./docs/recommend_kit/sweetalert2.md?vue&type=template&id=a7d004f6&");
+/* harmony import */ var _C_Users_9suser_AppData_Roaming_npm_node_modules_vuepress_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! C:/Users/9suser/AppData/Roaming/npm/node_modules/vuepress/node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "C:\\Users\\9suser\\AppData\\Roaming\\npm\\node_modules\\vuepress\\node_modules\\vue-loader\\lib\\runtime\\componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_C_Users_9suser_AppData_Roaming_npm_node_modules_vuepress_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
+  _sweetalert2_md_vue_type_template_id_a7d004f6___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _sweetalert2_md_vue_type_template_id_a7d004f6___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./docs/recommend_kit/sweetalert2.md?vue&type=template&id=a7d004f6&":
+/*!**************************************************************************!*\
+  !*** ./docs/recommend_kit/sweetalert2.md?vue&type=template&id=a7d004f6& ***!
+  \**************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _C_Users_9suser_AppData_Roaming_npm_node_modules_vuepress_node_modules_cache_loader_dist_cjs_js_cacheDirectory_C_Users_9suser_AppData_Roaming_npm_node_modules_vuepress_node_modules_vuepress_core_node_modules_cache_vuepress_cacheIdentifier_0e0a6237_vue_loader_template_C_Users_9suser_AppData_Roaming_npm_node_modules_vuepress_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_C_Users_9suser_AppData_Roaming_npm_node_modules_vuepress_node_modules_cache_loader_dist_cjs_js_ref_1_0_C_Users_9suser_AppData_Roaming_npm_node_modules_vuepress_node_modules_vue_loader_lib_index_js_ref_1_1_C_Users_9suser_AppData_Roaming_npm_node_modules_vuepress_node_modules_vuepress_markdown_loader_index_js_ref_1_2_sweetalert2_md_vue_type_template_id_a7d004f6___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!C:/Users/9suser/AppData/Roaming/npm/node_modules/vuepress/node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"C:/Users/9suser/AppData/Roaming/npm/node_modules/vuepress/node_modules/@vuepress/core/node_modules/.cache/vuepress","cacheIdentifier":"0e0a6237-vue-loader-template"}!C:/Users/9suser/AppData/Roaming/npm/node_modules/vuepress/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!C:/Users/9suser/AppData/Roaming/npm/node_modules/vuepress/node_modules/cache-loader/dist/cjs.js??ref--1-0!C:/Users/9suser/AppData/Roaming/npm/node_modules/vuepress/node_modules/vue-loader/lib??ref--1-1!C:/Users/9suser/AppData/Roaming/npm/node_modules/vuepress/node_modules/@vuepress/markdown-loader??ref--1-2!./sweetalert2.md?vue&type=template&id=a7d004f6& */ "C:\\Users\\9suser\\AppData\\Roaming\\npm\\node_modules\\vuepress\\node_modules\\cache-loader\\dist\\cjs.js?{\"cacheDirectory\":\"C:/Users/9suser/AppData/Roaming/npm/node_modules/vuepress/node_modules/@vuepress/core/node_modules/.cache/vuepress\",\"cacheIdentifier\":\"0e0a6237-vue-loader-template\"}!C:\\Users\\9suser\\AppData\\Roaming\\npm\\node_modules\\vuepress\\node_modules\\vue-loader\\lib\\loaders\\templateLoader.js?!C:\\Users\\9suser\\AppData\\Roaming\\npm\\node_modules\\vuepress\\node_modules\\cache-loader\\dist\\cjs.js?!C:\\Users\\9suser\\AppData\\Roaming\\npm\\node_modules\\vuepress\\node_modules\\vue-loader\\lib\\index.js?!C:\\Users\\9suser\\AppData\\Roaming\\npm\\node_modules\\vuepress\\node_modules\\@vuepress\\markdown-loader\\index.js?!./docs/recommend_kit/sweetalert2.md?vue&type=template&id=a7d004f6&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _C_Users_9suser_AppData_Roaming_npm_node_modules_vuepress_node_modules_cache_loader_dist_cjs_js_cacheDirectory_C_Users_9suser_AppData_Roaming_npm_node_modules_vuepress_node_modules_vuepress_core_node_modules_cache_vuepress_cacheIdentifier_0e0a6237_vue_loader_template_C_Users_9suser_AppData_Roaming_npm_node_modules_vuepress_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_C_Users_9suser_AppData_Roaming_npm_node_modules_vuepress_node_modules_cache_loader_dist_cjs_js_ref_1_0_C_Users_9suser_AppData_Roaming_npm_node_modules_vuepress_node_modules_vue_loader_lib_index_js_ref_1_1_C_Users_9suser_AppData_Roaming_npm_node_modules_vuepress_node_modules_vuepress_markdown_loader_index_js_ref_1_2_sweetalert2_md_vue_type_template_id_a7d004f6___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _C_Users_9suser_AppData_Roaming_npm_node_modules_vuepress_node_modules_cache_loader_dist_cjs_js_cacheDirectory_C_Users_9suser_AppData_Roaming_npm_node_modules_vuepress_node_modules_vuepress_core_node_modules_cache_vuepress_cacheIdentifier_0e0a6237_vue_loader_template_C_Users_9suser_AppData_Roaming_npm_node_modules_vuepress_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_C_Users_9suser_AppData_Roaming_npm_node_modules_vuepress_node_modules_cache_loader_dist_cjs_js_ref_1_0_C_Users_9suser_AppData_Roaming_npm_node_modules_vuepress_node_modules_vue_loader_lib_index_js_ref_1_1_C_Users_9suser_AppData_Roaming_npm_node_modules_vuepress_node_modules_vuepress_markdown_loader_index_js_ref_1_2_sweetalert2_md_vue_type_template_id_a7d004f6___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "C:\\Users\\9suser\\AppData\\Roaming\\npm\\node_modules\\vuepress\\node_modules\\cache-loader\\dist\\cjs.js?{\"cacheDirectory\":\"C:/Users/9suser/AppData/Roaming/npm/node_modules/vuepress/node_modules/@vuepress/core/node_modules/.cache/vuepress\",\"cacheIdentifier\":\"0e0a6237-vue-loader-template\"}!C:\\Users\\9suser\\AppData\\Roaming\\npm\\node_modules\\vuepress\\node_modules\\vue-loader\\lib\\loaders\\templateLoader.js?!C:\\Users\\9suser\\AppData\\Roaming\\npm\\node_modules\\vuepress\\node_modules\\cache-loader\\dist\\cjs.js?!C:\\Users\\9suser\\AppData\\Roaming\\npm\\node_modules\\vuepress\\node_modules\\vue-loader\\lib\\index.js?!C:\\Users\\9suser\\AppData\\Roaming\\npm\\node_modules\\vuepress\\node_modules\\@vuepress\\markdown-loader\\index.js?!./docs/recommend_kit/sweetalert2.md?vue&type=template&id=a7d004f6&":
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** C:/Users/9suser/AppData/Roaming/npm/node_modules/vuepress/node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"C:/Users/9suser/AppData/Roaming/npm/node_modules/vuepress/node_modules/@vuepress/core/node_modules/.cache/vuepress","cacheIdentifier":"0e0a6237-vue-loader-template"}!C:/Users/9suser/AppData/Roaming/npm/node_modules/vuepress/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!C:/Users/9suser/AppData/Roaming/npm/node_modules/vuepress/node_modules/cache-loader/dist/cjs.js??ref--1-0!C:/Users/9suser/AppData/Roaming/npm/node_modules/vuepress/node_modules/vue-loader/lib??ref--1-1!C:/Users/9suser/AppData/Roaming/npm/node_modules/vuepress/node_modules/@vuepress/markdown-loader??ref--1-2!./docs/recommend_kit/sweetalert2.md?vue&type=template&id=a7d004f6& ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('ContentSlotsDistributor',{attrs:{"slot-key":_vm.$parent.slotKey}},[_c('h1',{attrs:{"id":"sweetalert2-套件複習"}},[_c('a',{staticClass:"header-anchor",attrs:{"href":"#sweetalert2-套件複習"}},[_vm._v("#")]),_vm._v(" Sweetalert2 套件複習")]),_vm._v(" "),_c('p',[_c('a',{attrs:{"href":"https://sweetalert2.github.io/","target":"_blank","rel":"noopener noreferrer"}},[_vm._v("官方文件網址"),_c('OutboundLink')],1)]),_vm._v(" "),_c('p',[_vm._v("我覺得這款套件的alert框很好看")]),_vm._v(" "),_c('p',[_vm._v("搭配icon做出的演示更是妙不可言")]),_vm._v(" "),_c('h2',{attrs:{"id":"cdn引入"}},[_c('a',{staticClass:"header-anchor",attrs:{"href":"#cdn引入"}},[_vm._v("#")]),_vm._v(" CDN引入")]),_vm._v(" "),_c('div',{staticClass:"language-js extra-class"},[_c('pre',{pre:true,attrs:{"class":"language-js"}},[_c('code',[_c('span',{pre:true,attrs:{"class":"token operator"}},[_vm._v("<")]),_vm._v("script src"),_c('span',{pre:true,attrs:{"class":"token operator"}},[_vm._v("=")]),_c('span',{pre:true,attrs:{"class":"token string"}},[_vm._v("\"https://cdn.jsdelivr.net/npm/sweetalert2@9\"")]),_c('span',{pre:true,attrs:{"class":"token operator"}},[_vm._v(">")]),_c('span',{pre:true,attrs:{"class":"token operator"}},[_vm._v("<")]),_c('span',{pre:true,attrs:{"class":"token operator"}},[_vm._v("/")]),_vm._v("script"),_c('span',{pre:true,attrs:{"class":"token operator"}},[_vm._v(">")]),_vm._v("\n")])])]),_c('h2',{attrs:{"id":"簡單demo"}},[_c('a',{staticClass:"header-anchor",attrs:{"href":"#簡單demo"}},[_vm._v("#")]),_vm._v(" 簡單DEMO")]),_vm._v(" "),_c('iframe',{staticStyle:{"width":"100%"},attrs:{"height":"450","scrolling":"no","title":"Sweetalert2_Demo","src":"https://codepen.io/wenhui_xiao/embed/PoPVXYr?height=265&theme-id=dark&default-tab=result","frameborder":"no","allowtransparency":"true","allowfullscreen":"true"}},[_vm._v("\n  See the Pen "),_c('a',{attrs:{"href":"https://codepen.io/wenhui_xiao/pen/PoPVXYr"}},[_vm._v("Sweetalert2_Demo")]),_vm._v(" by 蕭文暉\n  ("),_c('a',{attrs:{"href":"https://codepen.io/wenhui_xiao"}},[_vm._v("@wenhui_xiao")]),_vm._v(") on "),_c('a',{attrs:{"href":"https://codepen.io"}},[_vm._v("CodePen")]),_vm._v(".\n")]),_vm._v(" "),_c('h2',{attrs:{"id":"語法"}},[_c('a',{staticClass:"header-anchor",attrs:{"href":"#語法"}},[_vm._v("#")]),_vm._v(" 語法")]),_vm._v(" "),_c('div',{staticClass:"language-js extra-class"},[_c('pre',{pre:true,attrs:{"class":"language-js"}},[_c('code',[_vm._v("Swal"),_c('span',{pre:true,attrs:{"class":"token punctuation"}},[_vm._v(".")]),_c('span',{pre:true,attrs:{"class":"token function"}},[_vm._v("fire")]),_c('span',{pre:true,attrs:{"class":"token punctuation"}},[_vm._v("(")]),_vm._v("\n  "),_c('span',{pre:true,attrs:{"class":"token string"}},[_vm._v("'Good job!'")]),_c('span',{pre:true,attrs:{"class":"token punctuation"}},[_vm._v(",")]),_vm._v(" "),_c('span',{pre:true,attrs:{"class":"token comment"}},[_vm._v("//標題 必填")]),_vm._v("\n  "),_c('span',{pre:true,attrs:{"class":"token string"}},[_vm._v("'測試成功!'")]),_c('span',{pre:true,attrs:{"class":"token punctuation"}},[_vm._v(",")]),_vm._v(" "),_c('span',{pre:true,attrs:{"class":"token comment"}},[_vm._v("//內容 非必填")]),_vm._v("\n  "),_c('span',{pre:true,attrs:{"class":"token string"}},[_vm._v("'success'")]),_vm._v(" "),_c('span',{pre:true,attrs:{"class":"token comment"}},[_vm._v("//Icon 非必填")]),_vm._v("\n"),_c('span',{pre:true,attrs:{"class":"token punctuation"}},[_vm._v(")")]),_vm._v("\n")])])]),_c('h2',{attrs:{"id":"各式icon"}},[_c('a',{staticClass:"header-anchor",attrs:{"href":"#各式icon"}},[_vm._v("#")]),_vm._v(" 各式Icon")]),_vm._v(" "),_c('iframe',{staticStyle:{"width":"100%"},attrs:{"height":"450","scrolling":"no","title":"LYpvVzw","src":"https://codepen.io/wenhui_xiao/embed/LYpvVzw?height=265&theme-id=dark&default-tab=result","frameborder":"no","allowtransparency":"true","allowfullscreen":"true"}},[_vm._v("\n  See the Pen "),_c('a',{attrs:{"href":"https://codepen.io/wenhui_xiao/pen/LYpvVzw"}},[_vm._v("LYpvVzw")]),_vm._v(" by 蕭文暉\n  ("),_c('a',{attrs:{"href":"https://codepen.io/wenhui_xiao"}},[_vm._v("@wenhui_xiao")]),_vm._v(") on "),_c('a',{attrs:{"href":"https://codepen.io"}},[_vm._v("CodePen")]),_vm._v(".\n")]),_vm._v(" "),_c('disqus')],1)}
+var staticRenderFns = []
+
+
+
+/***/ })
+
+}]);
+//# sourceMappingURL=22.b56db156.js.map
