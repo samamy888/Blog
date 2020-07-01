@@ -22,7 +22,7 @@ var vue = {
 };
 export default vue;
 </script>
-<style>
+<style scoped>
 .card {
   padding: 1.2em;
   background-color: #fafafa;
