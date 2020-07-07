@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="card">
-      <a :href="item.path">
+      <a :href="'/blog'+item.path">
         <h1>{{item.title}}</h1>
       </a>
       <div class="border"></div>
