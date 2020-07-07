@@ -16,7 +16,8 @@ var vue = {
   props: ["item"],
   methods: {
     GoPath: function() {
-      location.href = this.item.path;
+      let path = "/blog" + this.item.path;
+      location.href = path;
     }
   }
 };
