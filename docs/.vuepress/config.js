@@ -10,7 +10,7 @@ module.exports = {
 		['script', { src: 'https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js' }],
 		['script', { src: 'https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js' }],
 	],
-	base: '/', // 这是部署到github相关的配置 下面会讲
+	base: '/blog/', // 这是部署到github相关的配置 下面会讲
 	markdown: {
 		lineNumbers: true // 代码块显示行号
 	},

@@ -15,7 +15,7 @@ var vue = {
   name: "ArticleBox",
   props: ["item"],
   methods: {
-    GoPath: function(event) {
+    GoPath: function() {
       location.href = this.item.path;
     }
   }

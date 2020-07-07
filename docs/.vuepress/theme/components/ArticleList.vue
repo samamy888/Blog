@@ -16,10 +16,6 @@ var vue = {
   name: "ArticleList",
 
   components: { config },
-
-  data() {
-    return {};
-  },
   computed: {
     list: function() {
       return GetSidebar();
