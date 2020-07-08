@@ -1,3 +1,9 @@
+---
+description: |
+      前幾天朋友跟我分享這個網站，
+      看完之後發現這也太好用了，
+      寫在blog來跟大家推薦一下😅😅
+---
 # 前端推薦網站:https://placeholder.com
 
 [官方網址](https://placeholder.com)

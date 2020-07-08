@@ -1,3 +1,9 @@
+---
+description: |
+      雖然bootstrap的css已經足夠好看了，但是這款套件除了可以好看，      
+      還能做到許多支持，模糊搜尋、分頁、排序等等，還有許多功能我也還在摸索階段。
+---
+
 # DataTables 套件複習
 
 [官方文件網址](https://datatables.net/)
@@ -59,7 +65,7 @@ $(document).ready(function(){
   (<a href='https://codepen.io/wenhui_xiao'>@wenhui_xiao</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
-## 4.長度客製化版本
+## 4.顯示數量客製化版本
 
 ```js
  $('#myTable').DataTable({

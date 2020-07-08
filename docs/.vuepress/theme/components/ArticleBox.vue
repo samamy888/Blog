@@ -5,7 +5,7 @@
         <h1>{{item.title}}</h1>
       </a>
       <div class="border"></div>
-      <div class="body" v-html="item.content"></div>
+      <div class="body" v-html="item.frontmatter.description"></div>
       <div class="footer" @click="GoPath">繼續閱讀</div>
     </div>
   </div>

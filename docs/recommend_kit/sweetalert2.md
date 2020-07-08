@@ -1,3 +1,10 @@
+---
+description: |
+      我覺得這款套件的alert框很好看，
+      搭配icon做出的演示更是妙不可言，
+      自從知道這個之後就不再使用原本的alert了
+---
+
 # Sweetalert2 套件複習
 
 [官方文件網址](https://sweetalert2.github.io/)
@@ -5,6 +12,8 @@
 我覺得這款套件的alert框很好看
 
 搭配icon做出的演示更是妙不可言
+
+自從知道這個之後就不再使用原本的alert了
 
 ## CDN引入
 

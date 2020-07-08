@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div v-for="x in list">
+    <div v-for="x in site">
       <ArticleBox :item="x" />
     </div>
   </div>
@@ -16,34 +16,27 @@ var vue = {
   name: "ArticleList",
 
   components: { config },
+  data() {
+    return {
+      site: this.$site
+    };
+  },
   computed: {
     list: function() {
       return GetSidebar();
     }
+  },
+  mounted() {
+    this.site = Site_To_List(this.$site.pages);
+    console.log(this.site);
   }
 };
 export default vue;
-function GetSidebar() {
-  let article = [];
-  for (let i = 0; i < sidebar.length; i++) {
-    let tmp = GetOutSide(sidebar[i]);
-    if (tmp == undefined) continue;
-    tmp = tmp.flat();
-    article = [...article, ...tmp];
-  }
-  cnt = 0;
-  return article;
-}
-function GetOutSide(item) {
-  cnt++;
-  let ans = [];
-  if (item.children != undefined && cnt < max) {
-    item.children.forEach(element => {
-      let tmp = GetOutSide(element);
-      ans.push(tmp);
-    });
-    return ans;
-  }
-  if (item.title != undefined) return item;
+function Site_To_List(pages) {
+  let list = [];
+  return pages.filter(x => {
+    if (x.frontmatter.description == undefined) return false;
+    return x.frontmatter.description.length > 0;
+  });
 }
 </script>
