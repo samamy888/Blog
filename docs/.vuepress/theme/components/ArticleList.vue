@@ -21,19 +21,15 @@ var vue = {
       site: this.$site
     };
   },
-  computed: {
-    list: function() {
-      return GetSidebar();
-    }
-  },
   mounted() {
     this.site = Site_To_List(this.$site.pages);
-    console.log(this.site);
+    //console.log(this.site);
   }
 };
 function Site_To_List(pages) {
   let list = [];
   return pages.filter(x => {
+    if (x.frontmatter == {}) return false;
     if (x.frontmatter.description == undefined) return false;
     return x.frontmatter.description.length > 0;
   });

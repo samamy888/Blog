@@ -5,7 +5,7 @@
         <h1>{{item.title}}</h1>
       </a>
       <div class="border"></div>
-      <div class="body" v-html="item.frontmatter.description"></div>
+      <div class="body" v-html="description"></div>
       <div class="footer" @click="GoPath">繼續閱讀</div>
     </div>
   </div>
@@ -14,6 +14,14 @@
 var vue = {
   name: "ArticleBox",
   props: ["item"],
+  computed: {
+    description: function() {
+      if (this.item.frontmatter == {} || this.item.frontmatter == undefined)
+        return null;
+      if (this.item.frontmatter.description == undefined) return null;
+      return this.item.frontmatter.description;
+    }
+  },
   methods: {
     GoPath: function() {
       let path = "/blog" + this.item.path;
