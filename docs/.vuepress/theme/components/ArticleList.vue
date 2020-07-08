@@ -31,7 +31,6 @@ var vue = {
     console.log(this.site);
   }
 };
-export default vue;
 function Site_To_List(pages) {
   let list = [];
   return pages.filter(x => {
@@ -39,4 +38,5 @@ function Site_To_List(pages) {
     return x.frontmatter.description.length > 0;
   });
 }
+export default vue;
 </script>
