@@ -23,7 +23,7 @@ var vue = {
   },
   mounted() {
     this.site = Site_To_List(this.$site.pages);
-    //console.log(this.site);
+    this.site = _.orderBy(this.site, ["lastUpdated"], ["desc"]);
   }
 };
 function Site_To_List(pages) {

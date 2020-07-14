@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "vuepress dev docs",
-    "build": "npm config set unsafe-perm true && npx vuepress build docs"
+    "build": "npm config set unsafe-perm true && npx vuepress build docs",
+    "fa:build": "node node_modules/vuepress-plugin-font-awesome/index.js"
   },
   "repository": {
     "type": "git",
@@ -18,10 +19,9 @@
     "url": "https://github.com/samamy888/blog/issues"
   },
   "homepage": "https://github.com/samamy888/blog#readme",
-  "devDependencies": {
-    "vuepress-plugin-disqus": "^0.2.0"
-  },
   "dependencies": {
-    "jquery": "^3.5.1"
+    "jquery": "^3.5.1",
+    "vuepress-plugin-disqus": "^0.2.0",
+    "vuepress-plugin-font-awesome": "^1.90.6"
   }
 }
