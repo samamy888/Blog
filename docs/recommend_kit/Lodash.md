@@ -36,5 +36,5 @@ console.log(deep[0] === objects[0]);
 [[Javascript] 關於 JS 中的淺拷貝和深拷貝](https://larry850806.github.io/2016/09/20/shallow-vs-deep-copy/)
 
 
-<disqus/>  
+<Disqus_V2/>  
 

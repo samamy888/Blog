@@ -11,4 +11,4 @@ description: |
 
 [置中產生器](http://howtocenterincss.com/)
 
-<disqus/>   
+<Disqus_V2/>   

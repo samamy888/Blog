@@ -49,4 +49,4 @@ Swal.fire(
 
 
 
-<disqus/>
+<Disqus_V2/>

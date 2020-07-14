@@ -77,4 +77,4 @@ $(document).ready(function(){
   (<a href='https://codepen.io/wenhui_xiao'>@wenhui_xiao</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
-<disqus/>   
+<Disqus_V2/>   
