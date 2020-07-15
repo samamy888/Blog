@@ -1,10 +1,10 @@
 
 <template>
   <div class="disqus_border">
-    <disqus />
+    <Disqus />
   </div>
 </template>
-  <style>
+<style>
 .disqus_border {
   padding: 1.2em;
   background-color: #fafafa;
@@ -13,3 +13,7 @@
   margin-top: 100px;
 }
 </style>
+<script>
+var disqus = Vue.component("Disqus");
+export default {};
+</script>>
