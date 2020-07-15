@@ -78,4 +78,3 @@ $(document).ready(function(){
 </iframe>
 
 <Disqus_V2/>  
- <disqus /> 
