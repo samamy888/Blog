@@ -12,9 +12,10 @@
 |:----------:|:-------------:|:-----:|
 | html       | .net framework| Github |
 | Css        |  .net core    |Jenkins | 
-| Javascript ||
-| angularJS |
-| vuepress |
+| Javascript ||MySQL
+| angularJS ||MSSQL
+| VuePress |
+| Vue |
 :::
 
 <br/>

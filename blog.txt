@@ -1,0 +1,35 @@
+sql為空時不where
+
+https://stackoverflow.com/questions/4224991/checking-an-input-param-if-not-null-and-using-it-in-where-in-sql-server
+
+dataTables應用
+
+C# 的 Stopwatch
+
+包裝共用try catch  
+https://dotblogs.azurewebsites.net/rainmaker/2014/11/19/147361
+
+tryparse
+
+http-vue-loader
+
+vue 搭配this問題
+https://stackoverflow.com/questions/44380212/vue-js-axios-json-and-no-refresh
+
+使用 Number(false) 會將布林值 false 轉為數字為 0
+
+使用 Number(true) 會將布林值 true 轉為數字為 1
+
+C# hashset hashkey
+
+排程無法讀取config問題
+
+https://www.vnewin.com/html-input-autocomplete-off/
+
+非同步存取檔案
+
+
+model.UID = row.UID == null ? "" : row.UID;
+可改為
+model.UID = row.UID ?? "";
+coalesce

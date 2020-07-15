@@ -47,6 +47,10 @@ module.exports = {
 						title: 'C#相關',
 						collapsable: true,
 						children: [
+							{
+								title: '使用StopWatch偵測效能與執行時間',
+								path: '/note/C_Sharp/stopwatch',
+							}
 						]
 					},
 					{
