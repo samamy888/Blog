@@ -13,7 +13,3 @@
   margin-top: 100px;
 }
 </style>
-<script>
-var disqus = Vue.component("Disqus");
-export default {};
-</script>>
