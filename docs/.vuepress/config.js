@@ -56,6 +56,10 @@ module.exports = {
 							{
 								title: '前端推薦網站:https://placeholder.com',
 								path: '/note/HTML/placeholder',
+							},
+							{
+								title: '取消顯示歷史輸入記錄',
+								path: '/note/HTML/autocomplete',
 							}
 						]
 					},
@@ -115,11 +119,6 @@ module.exports = {
 		fontAwesomeIcons: {
 			regular: ['address-card', 'file-audio'],  // Regular font awesome icon keys here
 			solid: ['battery-quarter']               // Solid font awesome icon keys here
-		}
-	},
-	plugins: {
-		'Disqus': {
-			shortname: 'https-samamy888-github-io-blog'
 		}
 	}
 };
