@@ -1,13 +1,13 @@
 <template>
   <div>
     <div class="card">
-      <a :href="'/blog'+item.path">
-        <h1>{{item.title}}</h1>
-      </a>
-      <div style="color: #AAA">
+      <div class="lastupdated_time">
         <i class="fas fa-calendar-alt"></i>
         {{item.lastUpdated}}
       </div>
+      <a :href="'/blog'+item.path">
+        <h1>{{item.title}}</h1>
+      </a>
       <div class="border"></div>
       <div class="body" v-html="description"></div>
       <div class="footer" @click="GoPath">繼續閱讀</div>
@@ -79,6 +79,9 @@ export default vue;
   border-color: #000;
   color: #fff;
 }
-
+.lastupdated_time {
+  color: #aaa;
+  text-align: right;
+}
 /* end STYLE 6 */
 </style>
