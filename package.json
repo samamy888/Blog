@@ -21,7 +21,6 @@
   "homepage": "https://github.com/samamy888/blog#readme",
   "dependencies": {
     "jquery": "^3.5.1",
-    "vuepress-plugin-disqus": "^0.2.0",
-    "vuepress-plugin-font-awesome": "^1.90.6"
+    "vue-disqus": "^4.0.1"
   }
 }
