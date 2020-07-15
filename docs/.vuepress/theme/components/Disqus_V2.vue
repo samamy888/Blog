@@ -1,7 +1,7 @@
 
 <template>
   <div class="disqus_border">
-    <!-- <Disqus /> -->
+    <Disqus />
   </div>
 </template>
 <style>
