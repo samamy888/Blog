@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "vuepress dev docs",
-    "build": "npx i vuepress-plugin-disqus -D && npx vuepress build docs",
+    "build": "npm config set unsafe-perm true && npx vuepress build docs",
     "fa:build": "node node_modules/vuepress-plugin-font-awesome/index.js"
   },
   "repository": {
