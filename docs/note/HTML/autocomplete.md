@@ -16,4 +16,39 @@ description: |
 <input type="text" autocomplete="off">
 ```
 
+## 語法
+```html
+<input autocomplete="value">
+```
+
+## 屬性值
+
+<table class="table">
+<tr class="first">
+    <td>值</td>
+    <td> 描述</td>
+<tr>
+<tr>
+    <td> on</td>
+    <td> 默認值，開啟</td>
+</tr>
+<tr>
+    <td> off</td>
+    <td>  關閉</td>
+</tr>
+</table>
+
 <Disqus_V2/>
+<style scoped>
+.table {
+  border: 1px solid black;
+  background-color:#ffffff!important
+}
+.first{
+    background-color:#414141;
+    color:#ffffff;
+}
+.table td{
+    width:50vh
+}
+</style>
