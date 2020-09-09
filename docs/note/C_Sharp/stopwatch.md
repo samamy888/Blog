@@ -71,13 +71,13 @@ class Program
     static void Main(string[] args)
     {
         Stopwatch stopWatch = new Stopwatch();
-        stopWatch.Start();//開始
-        stopWatch.Reset();//歸零 可以不加
+        stopWatch.Start(); //開始
+        stopWatch.Reset(); //歸零 可以不加
         //dosomething.....
-        stopWatch.Stop();//結束
-        TimeSpan ts = stopWatch.Elapsed;        // 取得 elapsed time 
-        string TotalSeconds= stopWatch.Elapsed.TotalSeconds.ToString();        // 取得總秒數
-        Console.WriteLine("Total seconds : " + TotalSeconds);
+        stopWatch.Stop(); //結束
+        TimeSpan ts = stopWatch.Elapsed;// 取得 elapsed time 
+        double TotalSeconds = stopWatch.Elapsed.TotalSeconds;// 取得總秒數
+        Console.WriteLine("Total seconds : " + TotalSeconds.ToString());
     }
 }
 
