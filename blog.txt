@@ -38,7 +38,6 @@ coalesce
 
 非同步 死鎖
 
-sortableJS
 
 pickr
 

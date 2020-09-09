@@ -109,6 +109,14 @@ module.exports = {
 						title: 'Swiper套件',
 						path: '/recommend_kit/Swiper',
 					},
+					{
+						title: 'SortableJS套件',
+						path: '/recommend_kit/SortableJS',
+					},
+					{
+						title: 'SheetJS套件',
+						path: '/recommend_kit/SheetJS',
+					},
 				]
 			},
 			{
