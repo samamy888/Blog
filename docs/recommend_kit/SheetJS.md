@@ -1,18 +1,58 @@
 ---
 description: |
-      todo....
+      如果要匯出前端整理好的資料 直接用CSS選擇器選擇 即可匯出
+      不過缺點在於沒有顏色，顏色要錢
+      不過這是我的缺點 不是套件的缺點🤣🤣😭😭
 ---
 
 # SheetJS 套件複習
 
 [官方文件網址](https://sheetjs.com/)
 
+## 匯出 by Table
 
+如果要匯出前端整理好的資料 直接用CSS選擇器選擇 即可匯出
+不過缺點在於沒有顏色，顏色要錢
+不過這是我的缺點 不是套件的缺點🤣🤣😭😭
+
+**JS部分**
+
+```js
+function exportExcel(){
+  let table = document.getElementById('table');
+  let ws = XLSX.utils.table_to_sheet(table);
+	let wb = XLSX.utils.book_new();
+	XLSX.utils.book_append_sheet(wb, ws, "SheetJS");
+	/* generate XLSX file and send to client */
+	XLSX.writeFile(wb, "sheetjs.xlsx")
+}
+``` 
 
 **Codepen範例**
 
 <iframe height="400" style="width: 100%;" scrolling="no" title="SheetJS練習" src="https://codepen.io/wenhui_xiao/embed/PoNQvpq?height=265&theme-id=dark&default-tab=js,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href='https://codepen.io/wenhui_xiao/pen/PoNQvpq'>SheetJS練習</a> by 蕭文暉
+  (<a href='https://codepen.io/wenhui_xiao'>@wenhui_xiao</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
+## 匯出 by Json
+
+**JS部分**
+
+```js
+function exportExcel(){
+  let ws = XLSX.utils.json_to_sheet(data);
+	let wb = XLSX.utils.book_new();
+	XLSX.utils.book_append_sheet(wb, ws, "SheetJS");
+	/* generate XLSX file and send to client */
+	XLSX.writeFile(wb, "sheetjs.xlsx")
+}
+``` 
+
+**Codepen範例**
+
+<iframe height="400" style="width: 100%;" scrolling="no" title="SheetJS練習_by Json" src="https://codepen.io/wenhui_xiao/embed/jOqzmGy?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/wenhui_xiao/pen/jOqzmGy'>SheetJS練習_by Json</a> by 蕭文暉
   (<a href='https://codepen.io/wenhui_xiao'>@wenhui_xiao</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
