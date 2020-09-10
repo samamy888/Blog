@@ -18,17 +18,17 @@ var vue = {
   components: { config },
   data() {
     return {
-      site: this.$site
+      site: this.$site,
     };
   },
   mounted() {
     this.site = Site_To_List(this.$site.pages);
-    this.site = _.orderBy(this.site, ["lastUpdated"], ["desc"]);
-  }
+    this.site = _.orderBy(this.site, (x) => new Date(x.lastUpdated), ["desc"]);
+  },
 };
 function Site_To_List(pages) {
   let list = [];
-  return pages.filter(x => {
+  return pages.filter((x) => {
     if (x.frontmatter == {}) return false;
     if (x.frontmatter.description == undefined) return false;
     return x.frontmatter.description.length > 0;
