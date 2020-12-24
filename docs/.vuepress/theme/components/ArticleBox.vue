@@ -22,7 +22,8 @@ var vue = {
     description: function() {
       if (this.item.frontmatter == {} || this.item.frontmatter == undefined)
         return null;
-      if (this.item.frontmatter.description == undefined) return null;
+      if (this.item.frontmatter.description == undefined) 
+        return null;
       return this.item.frontmatter.description;
     }
   },

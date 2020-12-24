@@ -7,18 +7,14 @@
 </template>
 
 <script>
-import config from "../../config.js";
+
 import ArticleBox from "@theme/components/ArticleBox.vue";
-var sidebar = config.themeConfig.sidebar;
-let cnt = 0;
-let max = 20;
+
 var vue = {
   name: "ArticleList",
-
-  components: { config },
   data() {
     return {
-      site: this.$site,
+      site: [],
     };
   },
   mounted() {

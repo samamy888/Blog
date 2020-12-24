@@ -71,6 +71,10 @@ module.exports = {
 						title: 'JS相關',
 						collapsable: true,
 						children: [
+							{
+								title: '創建文章列表Vuepress元件',
+								path: '/note/JS/ArticleList_Create',
+							},
 						]
 					},
 					{
