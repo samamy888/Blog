@@ -124,6 +124,16 @@ module.exports = {
 				]
 			},
 			{
+				title: 'SideProject',
+				collapsable: true,
+				children: [
+					{
+						title: '原神裝備比對網站',
+						path: '/SideProject/GenshinArtifacts',
+					},
+				]
+			},
+			{
 				title: 'LeetCode',
 				collapsable: true,
 				children: [
