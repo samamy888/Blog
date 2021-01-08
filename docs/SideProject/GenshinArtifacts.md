@@ -9,4 +9,4 @@ description: 原神裝備比對
 
 <br/>
 
-[連結](https://samamy888.github.io/GenshinArtifacts/index)
+[連結](https://samamy888.github.io/GenshinArtifacts/)
