@@ -134,6 +134,20 @@ module.exports = {
 				]
 			},
 			{
+				title: '技術分享文件',
+				collapsable: true,
+				children: [
+					{
+						title: '正則表達式',
+						path: '/TechSharing/Regex',
+					},
+					{
+						title: 'vue框架入門',
+						path: '/TechSharing/VueStarted',
+					},
+				]
+			},
+			{
 				title: 'LeetCode',
 				collapsable: true,
 				children: [

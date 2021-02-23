@@ -8,12 +8,12 @@
 ::: details 目前技能
 
 
-| 網頁相關    | C#相關        | 其他  |
-|:----------:|:-------------:|:-----:|
-| html       | .net framework| Github |
-| Css        |  .net core    |Jenkins | 
-| Javascript ||MySQL
-| angularJS ||MSSQL
+| 網頁相關    | C#相關        | 行銷相關   |其他  |
+|:----------:|:-------------:|:----------:|:-----:|
+| html       | .net framework| GTM     |Github |
+| CSS        |  .net core    |GA     | Jenkins | 
+| Javascript | MySQL
+| angularJS  | MSSQL
 | VuePress |
 | Vue |
 :::
