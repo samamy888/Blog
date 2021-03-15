@@ -50,6 +50,10 @@ module.exports = {
 							{
 								title: '使用StopWatch偵測效能與執行時間',
 								path: '/note/C_Sharp/stopwatch',
+							},
+							{
+								title: '工作排程器上讀不到config問題',
+								path: '/note/C_Sharp/workscheduler_config',
 							}
 						]
 					},
