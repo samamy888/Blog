@@ -1,10 +1,4 @@
-sql為空時不where
-
-https://stackoverflow.com/questions/4224991/checking-an-input-param-if-not-null-and-using-it-in-where-in-sql-server
-
 dataTables應用
-
-C# 的 Stopwatch
 
 包裝共用try catch  
 https://dotblogs.azurewebsites.net/rainmaker/2014/11/19/147361
@@ -22,10 +16,6 @@ https://stackoverflow.com/questions/44380212/vue-js-axios-json-and-no-refresh
 
 C# hashset hashkey
 
-排程無法讀取config問題
-
-https://www.vnewin.com/html-input-autocomplete-off/
-
 非同步存取檔案
 
 
@@ -38,7 +28,6 @@ coalesce
 
 非同步 死鎖
 
-
 pickr
 
  asp-append-version="true" 
@@ -49,3 +38,5 @@ table 轉excel 亂馬問題
 https://star1530.pixnet.net/blog/post/352388831-html-%E7%9A%84table%E8%BD%89excel%E6%AA%94
 
 input.PadRight
+
+IIFE

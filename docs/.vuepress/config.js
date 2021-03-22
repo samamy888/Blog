@@ -79,6 +79,10 @@ module.exports = {
 								title: '創建文章列表Vuepress元件',
 								path: '/note/JS/ArticleList_Create',
 							},
+							{
+								title: 'JS觀念分享',
+								path: '/note/JS/JS_Idea',
+							},
 						]
 					},
 					{
@@ -148,6 +152,10 @@ module.exports = {
 					{
 						title: 'vue框架入門',
 						path: '/TechSharing/VueStarted',
+					},
+					{
+						title: 'JS觀念分享-PPT文件版',
+						path: '/TechSharing/JS_Idea_PPT',
 					},
 				]
 			},
