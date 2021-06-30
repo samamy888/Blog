@@ -83,6 +83,10 @@ module.exports = {
 								title: 'JS觀念分享',
 								path: '/note/JS/JS_Idea',
 							},
+							{
+								title: 'wrap()替換dom節點',
+								path: '/note/JS/Dom_Wrap',
+							},
 						]
 					},
 					{

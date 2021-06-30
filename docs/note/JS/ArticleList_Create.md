@@ -11,7 +11,7 @@ description: 想說網站上找的文章列表都有點不太合我胃口就自�
 
 ## 1.首先創建vue檔
 
-<img :src="$withBase('/ArticleList_1.png')"> 
+<img :src="$withBase('/ArticleList_1.png')">
 
 <br/>
 
@@ -44,7 +44,7 @@ export default ({
 ```
 ## 3.畫面顯示
 
-創建個md檔 article.md 然後內容就寫原件名稱 
+創建個md檔 article.md 然後內容就寫原件名稱
 
 
 article.md:
@@ -117,7 +117,7 @@ ArticleBox就負責每個文章的顯示
 
 測試樣子就會是這樣
 
-<img :src="$withBase('/ArticleDemo.png')"> 
+<img :src="$withBase('/ArticleDemo.png')">
 
 
 ## 4.然後我們要先抓出site列表
@@ -192,7 +192,7 @@ var vue = {
 
 <br/>
 
-### script部分:
+### script部分
 
 ``` js
 <script>
@@ -231,7 +231,7 @@ export default vue;
 
 <br/>
 
-### html部分:
+### html部分
 
 ``` vue
 <template>
