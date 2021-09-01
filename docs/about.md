@@ -15,14 +15,12 @@
 | 網頁相關    | C#相關        | 行銷相關   |其他  |
 |:----------:|:-------------:|:----------:|:-----:|
 | html       | .net framework| GTM     |Github |
-| CSS        |  .net core    |GA     | Jenkins | 
+| CSS        |  .net core    |GA     | Jenkins |
 | Javascript | MySQL
 | angularJS  | MSSQL
 | VuePress |
 | Vue |
 :::
-
-<br/>
 
 >撰寫此blog除了有筆記的作用外
 

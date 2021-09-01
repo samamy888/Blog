@@ -108,7 +108,7 @@ export default {
         {
           'no-navbar': !this.shouldShowNavbar,
           'sidebar-open': this.isSidebarOpen,
-          'no-sidebar': !this.shouldShowSidebar
+          //'no-sidebar': !this.shouldShowSidebar
         },
         userPageClass
       ]
