@@ -67,6 +67,14 @@ const sidebar = [
                     },
                 ]
             },
+            {
+                title: 'Git相關',
+                collapsable: true,
+                children: [{
+                    title: 'Git Log 匯出 excel',
+                    path: '/note/Git/GitLog',
+                }, ]
+            },
         ]
     },
     {
