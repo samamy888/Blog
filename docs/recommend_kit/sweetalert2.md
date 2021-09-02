@@ -44,9 +44,3 @@ Swal.fire(
   See the Pen <a href='https://codepen.io/wenhui_xiao/pen/LYpvVzw'>LYpvVzw</a> by 蕭文暉
   (<a href='https://codepen.io/wenhui_xiao'>@wenhui_xiao</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
-
-
-
-
-
-<Disqus_V2/>

@@ -60,5 +60,3 @@ description: |
 <div style='margin-top:20px;'>
 就可以先佔位 方便前端人員先行切版👍👍
 </div>
-
-<Disqus_V2/>  

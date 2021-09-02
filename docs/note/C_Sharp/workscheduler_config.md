@@ -14,5 +14,3 @@ description: |
 然後開始位置 輸入跟exe同個位置 即可👍👍
 
 <img :src="$withBase('/WorkConfig.png')" alt="foo"> 
-
-<Disqus_V2/>

@@ -38,7 +38,6 @@ description: |
 </tr>
 </table>
 
-<Disqus_V2/>
 <style scoped>
 .table {
   border: 1px solid black;

@@ -92,10 +92,6 @@ CROSS APPLY ID.nodes ('/M') t(c)
 
 :::
 
-
-
 這樣就可以放心去in了~
 
 筆記筆記
-
-<Disqus_V2/> 

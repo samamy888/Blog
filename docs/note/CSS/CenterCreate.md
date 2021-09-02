@@ -10,5 +10,3 @@ description: |
 這裡就有無腦的置中產生器  哈哈
 
 [置中產生器](http://howtocenterincss.com/)
-
-<Disqus_V2/>   

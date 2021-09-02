@@ -76,5 +76,4 @@ $(document).ready(function(){
   See the Pen <a href='https://codepen.io/wenhui_xiao/pen/wvKLEgE'>DataTables套件練習_顯示長度客製化</a> by 蕭文暉
   (<a href='https://codepen.io/wenhui_xiao'>@wenhui_xiao</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
-
-<Disqus_V2/>  
+ 
