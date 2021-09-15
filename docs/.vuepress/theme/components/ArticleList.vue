@@ -7,9 +7,8 @@
 </template>
 
 <script>
-
 import ArticleBox from "@theme/components/ArticleBox.vue";
-
+import moment from "moment";
 var vue = {
   name: "ArticleList",
   data() {
@@ -26,15 +25,17 @@ var vue = {
 function Site_To_List(pages) {
   let list = [];
   return pages.filter((x) => {
-    if (x.frontmatter == {} || x.frontmatter?.description == undefined) return false;
+    if (x.frontmatter == {} || x.frontmatter?.description == undefined)
+      return false;
     return x.frontmatter.description.length > 0;
   });
 }
-function AddDateToNewSite(site){
-  site.forEach(x=>{
-    if(x.lastUpdated=="" || x.lastUpdated==null){
+function AddDateToNewSite(site) {
+  site.forEach((x) => {
+    if (x.lastUpdated == "" || x.lastUpdated == null) {
       x.lastUpdated = new Date();
     }
+    x.lastUpdated = moment(x.lastUpdated).format("YYYY/MM/DD  HH:mm");
   });
   return site;
 }
