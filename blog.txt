@@ -40,3 +40,14 @@ https://star1530.pixnet.net/blog/post/352388831-html-%E7%9A%84table%E8%BD%89exce
 input.PadRight
 
 IIFE
+
+entity framework 的 Repository
+
+local db
+
+redis cache
+
+memory cache
+
+code map
+

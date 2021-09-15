@@ -3,7 +3,8 @@ const sidebar = [
     {
         title: '隨手筆記',
         collapsable: true,
-        children: [{
+        children: [
+            {
                 title: 'SQL相關',
                 collapsable: true,
                 children: [{
@@ -74,6 +75,11 @@ const sidebar = [
                     title: 'Git Log 匯出 excel',
                     path: '/note/Git/GitLog',
                 }, ]
+            },
+            {
+                title: 'Docker創建redis並用redis commander進行操作',
+                collapsable: true,
+                path: '/note/DockerRedisInit',
             },
         ]
     },
