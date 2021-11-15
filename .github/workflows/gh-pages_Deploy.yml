@@ -1,7 +1,5 @@
 name: Build and Deploy
-on:
-  push:
-    branches: [master]]
+on: [push]
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -16,3 +14,13 @@ jobs:
           COMMIT_MESSAGE: ${{ github.event.head_commit.message }}
           BUILD_SCRIPT: npm install && npm run build
           BUILD_DIR: docs/.vuepress/dist/
+
+      - name: Send To Line Message
+        uses: louis70109/line-notify-action@master
+        with:
+          token: ${{ secrets.LINE_NOTIFY_TOKEN }}
+          message: |
+            Event: 觸發 ${{ github.event_name }} event.
+            Repository: 【${{ github.repository }}】.已成功上傳
+            Commit Msg : ${{ github.event.head_commit.message }}
+          image_url: "https://user-images.githubusercontent.com/53833171/131245738-488b9dae-908d-4767-9ab6-94d096b87a1f.png"
