@@ -1,0 +1,23 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "使用 vuepress 製作",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samamy888/blog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samamy888/blog/issues"
+  },
+  "homepage": "https://github.com/samamy888/blog#readme",
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.50"
+  }
+}
