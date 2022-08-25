@@ -11,7 +11,7 @@ description: |
 
 我們專案要的格式大概是這樣
 
-<img :src="$withBase('/GitLog.png')" alt="foo">
+<img src="https://user-images.githubusercontent.com/38503381/186595889-dc84af22-06c1-46f7-894b-f994e8b78a5e.png" alt="foo">
 
 需要commit訊息、作者名稱、commit時間
 
@@ -78,7 +78,7 @@ git log --pretty=format:%s,%an,%as -- after="2021-08-01" --until="2021-08-31" --
 
 然後打開csv檔案會發現亂碼
 
-<img :src="$withBase('/GitLog_Big5.png')" alt="foo">
+<img src="https://user-images.githubusercontent.com/38503381/186596211-c286f2ae-3f62-4a80-8013-e2fa8484df77.png" alt="foo">
 
 這是因為預設big5編碼
 
@@ -90,4 +90,4 @@ git log --pretty=format:%s,%an,%as -- after="2021-08-01" --until="2021-08-31" --
 
 載入完就會是正確的文字拉~~~
 
-<img :src="$withBase('/GitLog.png')" alt="foo">
+<img src="https://user-images.githubusercontent.com/38503381/186595889-dc84af22-06c1-46f7-894b-f994e8b78a5e.png" alt="foo">

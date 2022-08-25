@@ -12,7 +12,7 @@ description: 講解JS觀念分享，那途中有什麼問題的都可以儘管�
 
 <span class='Gray'>let</span> 跟<span class='Gray'>const</span> 為**ES6**之後出現的
 
-<img :src="$withBase('/JS_Idea/var_const_let_1.png')"><br/>
+<img src="https://user-images.githubusercontent.com/38503381/186597330-d2c0a8c9-ac90-4af8-bd01-c00ae635c8d2.png"><br/>
 
 
 
@@ -28,7 +28,7 @@ description: 講解JS觀念分享，那途中有什麼問題的都可以儘管�
 
 那右邊 **function** 跟 **if** 都出不去喔，你去log都會顯示 **is not defined** 就可以避免不小心汙染全域的問題。
 
-<img :src="$withBase('/JS_Idea/var_const_let_2.png')"><br/>
+<img src="https://user-images.githubusercontent.com/38503381/186597392-c7b61e77-d25f-419e-a937-79ab6455b4fe.png"><br/>
 
 **for**迴圈如果用<span class='Gray'> var  </span>也會出現出了迴圈外 還是能用記數用的變數的問題
 
@@ -52,14 +52,14 @@ description: 講解JS觀念分享，那途中有什麼問題的都可以儘管�
 
 答案是10吼，因為他會把var a 給拉上去兩次 然後才a=10
 
-<img :src="$withBase('/JS_Idea/Hoisting_1.png')"><br/>
+<img src="https://user-images.githubusercontent.com/38503381/186597119-2c756fd3-a1f7-4f60-947b-adf04d7fd590.png"><br/>
 
 
 
 那**function** 一樣是有拉升的，然後function的拉升優先度會高於var，不會被變數蓋過去
 
 
-<img :src="$withBase('/JS_Idea/Hoisting_2.png')"><br/>
+<img src="https://user-images.githubusercontent.com/38503381/186597161-40baea89-7f90-4dfe-9781-c9da9c7df885.png"><br/>
 
 
 然後我們為什麼要有提升呢，這是為了讓你可以先呼叫**function**再去宣告，不用每次都要把**function**拉到最上方
@@ -70,7 +70,7 @@ description: 講解JS觀念分享，那途中有什麼問題的都可以儘管�
 
 這只是個觀念，可以聽一下有個大概，因為我們平常就有在應用了。
 
-<img :src="$withBase('/JS_Idea/Hoisting_3.png')"><br/>
+<img src="https://user-images.githubusercontent.com/38503381/186597209-b8ab3e85-8418-4e9e-871d-1eb82d7e6431.png"><br/>
 
 
 ## Closure 閉包
@@ -92,7 +92,7 @@ description: 講解JS觀念分享，那途中有什麼問題的都可以儘管�
 
 都變成各自私有的變數了
 
-<img :src="$withBase('/JS_Idea/Closure_1.png')"><br/>
+<img src="https://user-images.githubusercontent.com/38503381/186596995-7a0e36d9-21de-4ead-ad77-74b8a9ef1ca1.png"><br/>
 
 再來講一下閉包的優缺點喔
 
@@ -106,7 +106,7 @@ description: 講解JS觀念分享，那途中有什麼問題的都可以儘管�
 
 瀏覽器就會占用很多的內存吼 要小心
 
-<img :src="$withBase('/JS_Idea/Closure_2.png')"><br/>
+<img src="https://user-images.githubusercontent.com/38503381/186597060-a05f228c-4695-4b35-800e-1099ee56dd52.png"><br/>
 
 ## Prototype 原型
 <br/>
@@ -121,7 +121,7 @@ description: 講解JS觀念分享，那途中有什麼問題的都可以儘管�
 那假設我們只改a的屬性 b就不會跟著動  不能夠共享屬性跟方法 那變成要用好幾遍 無法做到繼承
 
 
-<img :src="$withBase('/JS_Idea/Prototype_1.png')"><br/>
+<img src="https://user-images.githubusercontent.com/38503381/186597259-5ee05f18-162a-4593-9db7-3eac698d48d6.png"><br/>
 
 再來使用<span class='Gray'>prototype</span>寫法再寫一次
 
@@ -133,7 +133,7 @@ description: 講解JS觀念分享，那途中有什麼問題的都可以儘管�
 
 Dog不管A或B就會跟著變 做到繼承的目的
 
-<img :src="$withBase('/JS_Idea/Prototype_2.png')"><br/>
+<img src="https://user-images.githubusercontent.com/38503381/186597300-eb0d8949-f028-4268-8423-32ede162eadb.png"><br/>
 
 
 ## 補充及參考文獻

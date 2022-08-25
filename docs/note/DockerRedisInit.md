@@ -36,7 +36,7 @@ redis-commander
 
 再複製cmd給的網紙貼到網頁上
 
-<img :src="$withBase('/RedisCommander.png')" alt="foo">
+<img src="https://user-images.githubusercontent.com/38503381/186594435-172f7ac3-e6b9-470a-9788-b141f5a1d890.png" alt="foo">
 
 看到這個畫面就代表成功連上 redis 資料庫拉👍
 
@@ -44,13 +44,13 @@ redis-commander
 
 再來我們可以新增key到資料庫上
 
-<img :src="$withBase('/RedisCommander2.png')" alt="foo">
+<img src="https://user-images.githubusercontent.com/38503381/186594841-132cdcbc-d406-49c4-b1ab-fd8b4b4cea3c.png" alt="foo">
 
 照著上圖所示就可以輕鬆新增
 
 然後我們就可以看到剛剛設的key 跟 value
 
-<img :src="$withBase('/RedisCommander3.png')" alt="foo">
+<img src="https://user-images.githubusercontent.com/38503381/186595045-62919a39-4812-4f1e-af59-603869bf22ca.png" alt="foo">
 
 就可以進行刪改拉~~~
 

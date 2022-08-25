@@ -88,7 +88,7 @@ CROSS APPLY ID.nodes ('/M') t(c)
 
 ::: tip 結果:
 <br/>
-<img :src="$withBase('/demo_Sql_Null.png')" alt="foo"> 
+<img src="https://user-images.githubusercontent.com/38503381/186596447-e940c87c-3aa2-4200-a3b3-a183e068e720.png" alt="foo"> 
 
 :::
 

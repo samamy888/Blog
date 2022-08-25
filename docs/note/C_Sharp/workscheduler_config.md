@@ -13,4 +13,4 @@ description: |
 
 然後開始位置 輸入跟exe同個位置 即可👍👍
 
-<img :src="$withBase('/WorkConfig.png')" alt="foo"> 
+<img src="https://user-images.githubusercontent.com/38503381/186595391-afc16994-2107-4d59-ac2c-92dc053d45f6.png" alt="foo"> 
