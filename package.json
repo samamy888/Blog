@@ -19,5 +19,8 @@
   "homepage": "https://github.com/samamy888/blog#readme",
   "devDependencies": {
     "vuepress": "^2.0.0-beta.50"
+  },
+  "dependencies": {
+    "vuepress-plugin-comment2": "^2.0.0-beta.91"
   }
 }
