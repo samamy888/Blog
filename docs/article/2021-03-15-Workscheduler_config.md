@@ -1,7 +1,5 @@
 ---
-description: |
-     之前有遇到排程讀不到config問題，
-     後來爬文才知道要設定一下。
+description: 之前有遇到排程讀不到config問題，後來爬文才知道要設定一下。
 ---
 
 # 工作排程器上讀不到config問題

@@ -27,7 +27,7 @@ description: |
 <tr class="first">
     <td>值</td>
     <td> 描述</td>
-<tr>
+</tr>
 <tr>
     <td> on</td>
     <td> 默認值，開啟</td>
