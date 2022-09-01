@@ -1,11 +1,11 @@
 import { ref } from 'vue'
-import { defineUserConfig } from 'vuepress'
+import { defineUserConfig, SidebarConfigObject } from 'vuepress'
 import { service } from './service'
 import { commentPlugin } from "vuepress-plugin-comment2";
 import { localTheme } from './theme'
 
 const _service = new service()
-const sidebar =  ref<string[]>(await _service.getSidebar())
+const sidebar =  ref(await _service.getSidebar())
 export default defineUserConfig({
   base:'/blog/',
   lang: 'zh-TW',
