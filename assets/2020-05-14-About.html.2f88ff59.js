@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-51aea4a6","path":"/article/2020-05-14-About.html","title":"\u95DC\u65BC\u6211","lang":"zh-TW","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1662012833000,"contributors":[{"name":"wenhui","email":"WenHui_Xiao@everrich.com.tw","commits":1}]},"filePathRelative":"article/2020-05-14-About.md"}');export{e as data};
