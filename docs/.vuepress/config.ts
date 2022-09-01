@@ -7,6 +7,7 @@ import { localTheme } from './theme'
 const _service = new service()
 const sidebar =  ref<string[]>(await _service.getSidebar())
 export default defineUserConfig({
+  base:'/blog/',
   lang: 'zh-TW',
   title: '文暉blog',
   plugins: [
