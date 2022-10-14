@@ -1,11 +1,11 @@
 import path from "path";
 import fs from 'fs';
 import util from 'util';
-import { ref } from "vue";
 import {sidebarItem} from './interface/sidebarItem'
-const readdir = util.promisify(fs.readdir);
+
 export class service {
   getSidebar = async () => {
+    const readdir = util.promisify(fs.readdir);
     const files = await readdir('./docs/article/');
     return this.getSidebarItem(files)
   };
@@ -25,3 +25,4 @@ export class service {
     return result.reverse()
   }
 }
+

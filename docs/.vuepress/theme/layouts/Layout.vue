@@ -1,13 +1,21 @@
 <template>
   <ParentLayout>
-    <template #page-bottom>
+    <template #page-bottom v-if="!frontmatter.homePage">
       <CommentService :darkmode="isDarkMode" />
+    </template>
+    <template #page-top v-else>
+      <ArticleList/>
     </template>
   </ParentLayout>
 </template>
 <script setup lang="ts">
-import { onBeforeUnmount, onMounted, ref } from "vue";
+import { onBeforeUnmount, onMounted, ref  } from "vue";
 import ParentLayout from "@vuepress/theme-default/layouts/Layout.vue";
+import { usePageFrontmatter } from '@vuepress/client'
+import ArticleList from '../component/ArticleList.vue'
+
+const frontmatter = usePageFrontmatter();
+
 const isDarkMode = ref(false);
 let observer;
 onMounted(() => {
