@@ -1,29 +1,18 @@
-<template>
-    123456789
+<template >
+    <template v-for="item in sidebar">
+        <ArticleCard :item=item :darkmode=darkmode />
+    </template>
 </template>
 <script setup lang="ts">
-import { onBeforeUnmount, onMounted, ref  } from "vue";
-import { useThemeData } from '@vuepress/plugin-theme-data/client'
-
-// const sidebar =   useThemeData()
-const isDarkMode = ref(false);
-let observer;
+import { onMounted,ref  } from "vue";
+import ArticleCard from './ArticleCard.vue'
+import { useSidebarItems } from '@vuepress/theme-default/client';
+const sidebar = ref();
+const props = defineProps({
+    darkmode: Boolean
+})
+const { darkmode } = props
 onMounted(async () => {
-//   const html = document.querySelector("html") as HTMLElement;
-//   isDarkMode.value = html.classList.contains("dark");
-//   // watch theme change
-//   observer = new MutationObserver(() => {
-//     isDarkMode.value = html.classList.contains("dark");
-//   });
-//   observer.observe(html, {
-//     attributeFilter: ["class"],
-//     attributes: true,
-//   });
-    // await _service.getSidebar();
-    // console.log(sidebar.value)
-  
-});
-onBeforeUnmount(() => {
-  observer.disconnect();
+    sidebar.value = useSidebarItems().value.map(x=>x.children).flatMap(x=>x)
 });
 </script>

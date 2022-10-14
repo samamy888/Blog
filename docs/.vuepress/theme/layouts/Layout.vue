@@ -4,7 +4,7 @@
       <CommentService :darkmode="isDarkMode" />
     </template>
     <template #page-top v-else>
-      <ArticleList/>
+      <ArticleList :darkmode="isDarkMode" />
     </template>
   </ParentLayout>
 </template>
