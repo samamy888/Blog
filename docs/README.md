@@ -1,4 +1,3 @@
 ---
 homePage: true
 ---
-# Hello VuePress

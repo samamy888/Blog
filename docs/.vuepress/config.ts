@@ -25,7 +25,7 @@ export default defineUserConfig({
       categoryId:'DIC_kwDOD7BuJM4CRDlW'
     }),
   ],
-  description: 'Just playing around',
+  description: '文暉blog',
   theme: localTheme({
     sidebar: sidebar.value
   }),

@@ -118,5 +118,5 @@ public class App
 
 ## 參考資料
 
-[https://github.com/iSatishYadav/net-core-console-nlog-with-di/blob/master/README.md](https://github.com/iSatishYadav/net-core-console-nlog-with-di/blob/master/README.md)
+<https://github.com/iSatishYadav/net-core-console-nlog-with-di/blob/master/README.md>
 
