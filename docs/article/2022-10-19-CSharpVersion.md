@@ -154,7 +154,7 @@ Func<string> welcome = () => "Welcome to Lambda Improvements";
 Console.WriteLine(welcome);
 ```
 
-但若是到 C#10 則可以右後往前推斷變數類型 
+但若是到 C#10 則可以由後往前推斷變數類型 
 
 ```csharp{3}
 // C#10
