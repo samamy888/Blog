@@ -1,3 +1,7 @@
+---
+description: 爬文發現有人實作了，就來記錄一下自己的版本，開發版本是 .net 6
+---
+
 # 在.net core 6 的 console app 上 DI 注入 NLog
 
 [官方wiki](https://github.com/NLog/NLog.Extensions.Logging/wiki/NLog-configuration-with-appsettings.json)上也沒有教怎麼把NLog使用DI方式注進去
