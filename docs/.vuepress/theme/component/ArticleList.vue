@@ -20,6 +20,5 @@ onMounted(async () => {
         link:x.link,
         date:x.link.replace(/.+\/(.+)-.+/gm,'$1')
     }))
-    console.log(sidebar.value)
 });
 </script>

@@ -1,8 +1,8 @@
 <template>
-  <div :class="background" class="theme-default-content card">
+  <div :class="background" class="theme-default-content card" @click="gotoLink(item.link)">
     <div class="hot-deco-bg"></div>
     <!-- <div class="hot-deco-text">HOT</div> -->
-    <p class="content" @click="gotoLink(item.link)">
+    <p class="content">
       <b>{{ item.text }}</b>
     </p>
     <time class="issue-date d-none" datetime="2022-10-19">
@@ -26,7 +26,6 @@ const background = ref();
 onMounted(async () => {
   if (props.darkmode) background.value = "dark-background";
   else background.value = "white-background";
-  console.log(item)
 });
 watch(
   () => props.darkmode,

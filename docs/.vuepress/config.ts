@@ -37,6 +37,16 @@ export default defineUserConfig({
   ],
   description: '文暉blog',
   theme: localTheme({
-    sidebar: sidebar.value
+    sidebar: sidebar.value,
+    navbar: [
+      {
+        text: 'About',
+        link: '/article/2020-05-14-About',
+      },
+      {
+        text: 'Github',
+        link: 'https://github.com/samamy888',
+      },
+    ],
   }),
 })
