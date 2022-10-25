@@ -1,13 +1,13 @@
 <template>
   <div :class="background" class="theme-default-content card">
     <div class="hot-deco-bg"></div>
-    <div class="hot-deco-text">HOT</div>
+    <!-- <div class="hot-deco-text">HOT</div> -->
     <p class="content" @click="gotoLink(item.link)">
       <b>{{ item.text }}</b>
     </p>
     <time class="issue-date d-none" datetime="2022-10-19">
       <span>date</span>
-      2022-10-19
+      {{ item.date }}
     </time>
   </div>
 </template>

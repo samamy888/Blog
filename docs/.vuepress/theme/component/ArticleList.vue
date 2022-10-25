@@ -12,6 +12,14 @@ const props = defineProps({
     darkmode: Boolean
 })
 onMounted(async () => {
-    sidebar.value = useSidebarItems().value.map(x=>x.children).flatMap(x=>x)
+    sidebar.value = useSidebarItems().value
+    .map(x=>x.children)
+    .flatMap(x=>x)
+    .map(x=>({
+        text:x.text,
+        link:x.link,
+        date:x.link.replace(/.+\/(.+)-.+/gm,'$1')
+    }))
+    console.log(sidebar.value)
 });
 </script>
