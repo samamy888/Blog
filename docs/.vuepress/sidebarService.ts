@@ -13,7 +13,7 @@ export class service {
     var dicPath = new Set(files.map(x=>x.substring(0,4)))
     var result = Array<sidebarItem>();
     dicPath.forEach(x=>{
-      var sameYearFiles = files.filter(y=>y.substring(0,4) === x).map(x=>`/article/${x}`)
+      var sameYearFiles = files.filter(y=>y.substring(0,4) === x).map(x=>`/article/${x}`).reverse()
       var item:sidebarItem = {
         text : x,
         collapsible : true,
