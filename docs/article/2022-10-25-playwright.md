@@ -82,8 +82,37 @@ Playwright 是微軟開發的 web 自動化測試工具，它有幾項特性：
     可以看到資料夾內有 **screenshot.png** 這張截圖就代表成功囉!
 
 
-## 第二部分未完待續....
+## PTT爬蟲
 
+1. 先找一篇文章
+
+    這次我找[這篇](https://www.ptt.cc/bbs/BeautySalon/M.1654351685.A.0B7.html)當範例
+
+2. 更改程式碼
+
+    ```csharp
+    using Microsoft.Playwright;
+    // 創建一個 Playwright 的 Instance
+    using var playwright = await Playwright.CreateAsync();
+    // 取得一個 Browser 的 Instance
+    await using var browser = await playwright.Chromium.LaunchAsync();
+    // 取得一個Page 的 Instance
+    var page = await browser.NewPageAsync();
+    // 前往 https://playwright.dev/dotnet 這個網頁
+    await page.GotoAsync("https://www.ptt.cc/bbs/BeautySalon/M.1654351685.A.0B7.html");
+    // 搭配css selector 取得 html 內的 text
+    var html = await page.InnerTextAsync("#main-content");
+    // 顯示結果
+    Console.WriteLine(html);
+    ```
+3. 執行程式
+
+    ```bash
+    dotnet run
+    ```
+4. 觀看結果
+
+    就可以看到捕獲的文字囉~
 
 ## 參考文獻
 <https://blog.miniasp.com/post/2021/09/12/Writing-E2E-Testing-using-Playwright-for-NET>
