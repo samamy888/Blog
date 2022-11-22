@@ -98,7 +98,7 @@ Playwright 是微軟開發的 web 自動化測試工具，它有幾項特性：
     await using var browser = await playwright.Chromium.LaunchAsync();
     // 取得一個Page 的 Instance
     var page = await browser.NewPageAsync();
-    // 前往 https://playwright.dev/dotnet 這個網頁
+    // 前往 https://www.ptt.cc/bbs/BeautySalon/M.1654351685.A.0B7.html 這個網頁
     await page.GotoAsync("https://www.ptt.cc/bbs/BeautySalon/M.1654351685.A.0B7.html");
     // 搭配css selector 取得 html 內的 text
     var html = await page.InnerTextAsync("#main-content");
