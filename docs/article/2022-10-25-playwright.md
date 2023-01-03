@@ -4,11 +4,13 @@ description: Playwright介紹與爬蟲教學
 
 # Playwright介紹與爬蟲教學
 
-本篇分為兩個部分，
+本篇重點分為兩個部分，
 
 第一部分介紹playwright與基本操作，
 
-第二部分分享如何進行PTT爬蟲。
+第二部分分享如何進行PTT爬蟲，
+
+再來就是一些細節部分。
 
 ## Playwright介紹
 
@@ -114,6 +116,37 @@ Playwright 是微軟開發的 web 自動化測試工具，它有幾項特性：
 
     就可以看到捕獲的文字囉~
 
+## 執行 Javascript 語法
+
+1. 語法 :
+   
+    ```csharp
+    await page.EvaluateAsync();
+    ```
+    會返回 ```JsonElement``` 的物件
+
+2. 用法 :
+
+    可以把上面撈取 Text 的語法改寫成下列這行，再進行爬取
+
+    ```csharp
+    var html = await page.EvaluateAsync("document.querySelector('#main-content').innerText");
+    ```
+
+    也一樣可以返回 ```innerText``` 的結果。
+
+3. **navigator.webdriver** 設置 :
+
+    有些網站會進行 ```navigator.webdriver``` 的偵測阻擋，
+    就可以用 EvaluateAsync 語法進行隱蔽
+
+     ```csharp
+    await page.EvaluateAsync("Object.defineProperty (navigator, 'webdriver', {get: () => false})");
+    ```
+
+    就可以看到 ```navigator.webdriver``` 從 ```true``` 改為 ```false```
+
 ## 參考文獻
 <https://blog.miniasp.com/post/2021/09/12/Writing-E2E-Testing-using-Playwright-for-NET>
 <https://dotblogs.com.tw/supershowwei/2021/11/07/234421>
+<https://github.com/microsoft/playwright-python/issues/527>
