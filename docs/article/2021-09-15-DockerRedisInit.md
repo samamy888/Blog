@@ -18,7 +18,7 @@ docker pull redis
 然後我們再把他run起來並指定port號
 
 ``` bash
-docker run -d --name redis-test -p 6379:6379
+docker run -d --name redis -p 6379:6379 redis
 ```
 
 這樣就大功告成啦! 有夠簡單👍
@@ -38,6 +38,23 @@ redis-commander
 
 看到這個畫面就代表成功連上 redis 資料庫拉👍
 
+## rebrow
+
+或是可以使用 rebrow 作為 Web UI 的 Redis 管理工具
+
+``` bash
+docker pull marian/rebrow
+docker run -d --name rebrow -p 5001:5001 --link redis:redis marian/rebrow
+```
+
+<img src="https://user-images.githubusercontent.com/38503381/210916765-58f14697-d797-4969-b974-60beef489260.jpg" alt="foo">
+
+啟動後再把 localhost 改為 **redis**
+
+即可成功連接~
+
+
+
 ## 檢視、編輯
 
 再來我們可以新增key到資料庫上
@@ -54,5 +71,6 @@ redis-commander
 
 ## 參考連結
 
-* [https://github.com/joeferner/redis-commander](https://github.com/joeferner/redis-commander)
-* [https://stackoverflow.com/questions/41371402/connecting-to-redis-running-in-docker-container-from-host-machine](https://stackoverflow.com/questions/41371402/connecting-to-redis-running-in-docker-container-from-host-machine)
+* <https://github.com/joeferner/redis-commander>
+* <https://stackoverflow.com/questions/41371402/connecting-to-redis-running-in-docker-container-from-host-machine>
+* <https://dotblogs.com.tw/yc421206/2022/10/29/how_to_create_redis_net_6_local_development_environment>
