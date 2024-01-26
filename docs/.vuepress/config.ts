@@ -10,7 +10,7 @@ import { prismjsPlugin } from '@vuepress/plugin-prismjs'
 const _service = new service()
 const sidebar =  ref(await _service.getSidebar())
 export default defineUserConfig({
-  base:'/blog/',
+  base:'/',
   lang: 'zh-TW',
   title: '文暉blog',
   head: [
