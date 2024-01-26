@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-8daa1a0e","path":"/","title":"","lang":"zh-TW","frontmatter":{"homePage":true},"excerpt":"","headers":[],"git":{"updatedTime":1706233620000,"contributors":[{"name":"\u856D\u6587\u6689(Wenhui)","email":"wenhui_xiao@everrich.com.tw","commits":1}]},"filePathRelative":"README.md"}');export{e as data};
